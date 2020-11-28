@@ -2,14 +2,13 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Fate mode</Name>
-    <Guid>2ed2763c-b9a7-4f9b-b7aa-da451c941d2e</Guid>
-    <ProjectGuid>9e920493-98a9-410b-a6d9-4894d2191134</ProjectGuid>
+    <Name>The_fate_mode</Name>
+    <Guid>afbebd20-2897-4e4a-8457-81fbed15fee7</Guid>
+    <ProjectGuid>59edb88c-ba81-4b29-a27c-ae2719ca33d1</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>A Fate mode</Teaser>
-    <Description>A Fate mode</Description>
-    <Authors>
-    </Authors>
+    <Teaser>A fate mode</Teaser>
+    <Description>A fate mode</Description>
+    <Authors>hieda</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -17,14 +16,14 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <AssemblyName>Fate_mode</AssemblyName>
-    <RootNamespace>Fate_mode</RootNamespace>
+    <AssemblyName>The_fate_mode</AssemblyName>
+    <RootNamespace>The_fate_mode</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Fate_mode.Art.xml" />
+    <None Include="The_fate_mode.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
